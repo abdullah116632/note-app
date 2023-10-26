@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  flex-grow: 1;
+  align-items: start;
+  padding-left: 2rem;
+  font-size: 3rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.name {
+  height: 2.5rem;
+  width: 12.5rem;
+  color: black;
+  background-color: #f6f4eb;
+  padding-left: 1.2rem;
+  border: 1px solid #072541;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+  font-size: 1.1rem;
+  transition: all, 1.5s, ease-in, 0s;
+}
+
+.name:hover {
+  border: 2px solid #2146c7;
+}
+
+.name:focus{
+    border: 2px dotted #2146c7;
+}
+
+.btn {
+  height: 2.5rem;
+  width: 6rem;
+  color: white;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  font-size: small;
+  background-color: #fb2576;
+  border: 1px solid #27374d;
+}
+
+.btn:hover {
+  background-color: #eb455f;
+}
+
+.inputBox {
+  padding-right: 3rem;
+  display: flex;
+}

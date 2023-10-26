@@ -1,0 +1,81 @@
+.titleBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.dscBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.postTitle {
+  height: 3rem;
+  width: 18rem;
+  background-color: #bface2;
+  border-radius: 5px;
+  margin-top: 0.4rem;
+  font-size: 1.2rem;
+  padding-top: 0.7rem;
+}
+
+.postTitle:hover,
+.dscTitle:hover {
+  border: 3px solid #77037b;
+}
+
+.dscTitle {
+  height: 7rem;
+  width: 18rem;
+  background-color: #bface2;
+  border-radius: 6px;
+  margin-top: 0.4rem;
+  font-size: 1.2rem;
+}
+
+.label1,
+.label2 {
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+
+.btnBox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 0.4rem;
+}
+
+.cancle,
+.submit {
+  height: 2.1rem;
+  width: 5rem;
+  font-size: larger;
+  border-radius: 0.4rem;
+  border: none;
+  margin-top: 1rem;
+
+  color: white;
+}
+
+.cancle {
+  background-color: transparent;
+}
+
+.submit {
+  margin-right: 1rem;
+  background-color: #40128b;
+  margin-left: 1rem;
+}
+
+.submit:hover {
+  border: 1px solid #fe6244;
+}
+
+.cancle:hover {
+  color: antiquewhite;
+}

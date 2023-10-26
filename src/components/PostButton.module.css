@@ -1,0 +1,34 @@
+.container {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* .container::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+} */
+
+.btn {
+  height: 3rem;
+  width: 7rem;
+  margin-right: 3rem;
+  border-radius: 0.6rem;
+  background-color: greenyellow;
+}
+
+.rulerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ruler {
+  height: 1px;
+  width: 90%;
+  background-color: white;
+  margin-top: 1.5rem;
+}

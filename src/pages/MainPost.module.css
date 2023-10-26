@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+    padding-left: 4.5rem;
+    padding-right: 3rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
