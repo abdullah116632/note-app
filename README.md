@@ -13,7 +13,7 @@ This is a **Note-Taking Application** built using **React.js**. It allows users 
 - **CSS3** for styling and layout  
 
 ## 📸 Screenshots
-![Note App Screenshot](https://res.cloudinary.com/dp0zdj77w/image/upload/v1742011371/forReadme/Screenshot_2025-03-15_100039_fmjwk4.png)
+![Note App Screenshot](https://res.cloudinary.com/dp0zdj77w/image/upload/v1742016015/forReadme/Screenshot_2025-03-15_111950_f1f6kl.png)
 
 ## 🚀 How to Run
 1. Clone the repository:
